@@ -88,7 +88,7 @@ export default function AdminNav() {
           <AdminNavItem
             component={HomeIcon}
             route={"/admin/"}
-            text={"Inicio"}
+            text={"Home"}
           ></AdminNavItem>
           {/* <AdminNavItem
             component={AddShoppingCartIcon}
