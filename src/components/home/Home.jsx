@@ -4,9 +4,9 @@ import Banner from "../Banner/Banner";
 import ListaProductos from "../ListaProductos/ListaProductos";
 import Footer from "../Footer/Footer";
 import axiosCall from "../../utils/axiosCall";
-import "./Home.css";
+import "./Inicio.css";
 
-export default function Home() {
+export default function Inicio() {
   const [productos, setProductos] = useState([]);
 
   useEffect(() => {
